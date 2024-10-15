@@ -1,6 +1,11 @@
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header CSS Code */
@@ -81,8 +86,8 @@ img{
 }
 
 .header-button2{
-    height: 48px;
     width: 96px;
+    height: 48px;
     border-radius: 24px;
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -106,5 +111,88 @@ nav{
 main{
     width: 100%;
     height: 95vh;
-    background-color: grey;
+    background-image: url(https://www.ubereats.com/_static/c413f20400e04805.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
+
+.container{
+    width: 1200px;
+    height: 300px;
+    margin-top: 50px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-size: 68px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.address{
+    width: 700px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ input{
+    width: 650px;
+    height: 70px;
+    border: none;
+    padding: 0px 10px;
+    font-size: 24px;
+ }
+
+ .time{
+    width: 250px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ select{
+    width: 200px;
+    height: 70px;
+    border: none;
+    padding: 0px 10px;
+    font-size: 24px;
+ }
+
+ .main-button{
+    width: 150px;
+    height: 75px;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .main-link{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+ }
+
+ .main-signin{
+    color: rgb(65, 65, 65);
+ }
