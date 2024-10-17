@@ -13,6 +13,7 @@ header{
     height: 85px;
     padding: 0px 40px;
     background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(240, 240, 240);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,7 +58,7 @@ header{
     align-items: center;
 }
 
-img{
+.header-img{
     height: 21px;
 }
 
@@ -293,3 +294,59 @@ a{
 }
 
 /* Footer CSS Code */
+footer{
+    margin: 6vh 0px 0px;
+    padding: 6vh 2vw 8vh;
+    display: grid;
+    border-top: 1px solid rgb(235, 235, 235);
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-rows: 28vh 8vh 6vh;
+}
+
+.footer-logos{
+    grid-area: 1/1/1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-socialmedia{
+    grid-area: 3/1/3/4;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+.footer-list1{
+    grid-area: 1/2/2/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-list2{
+    grid-area: 1/3/2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+.footer-img{
+    height: 32px;
+}
+
+.appstores-img{
+    height: 56px;
+    padding-right: 10px;
+}
+
+.fb-tw-in{
+    font-size: 24px;
+    padding-right: 25px;
+    padding-top: 50px;
+}
