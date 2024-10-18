@@ -31,6 +31,7 @@ header{
     align-items: center;
 }
 
+/* Nav Menu Button CSS */
 .navmenu{
     width: 64px;
     height: 64px;
@@ -52,6 +53,7 @@ header{
     background-color: rgb(230, 230, 230);
 }
 
+/* Page Title CSS */
 .title{
     display: flex;
     justify-content: center;
@@ -70,15 +72,17 @@ header{
     align-items: center;
 }
 
+/* Login Button CSS */
 .header-button1{
     height: 48px;
     width: 88px;
     border-radius: 24px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 5px 5px rgb(230, 230, 230);
+    box-shadow: 2px 2px 4px 4px rgb(230, 230, 230);
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .header-login{
@@ -88,6 +92,15 @@ header{
     color: rgb(0, 0, 0);
 }
 
+.header-button1:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.header-button1:active{
+    background-color: rgb(235, 235, 235);
+}
+
+/* Signup Button CSS */
 .header-button2{
     width: 96px;
     height: 48px;
@@ -96,6 +109,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .header-signup{
@@ -103,6 +117,14 @@ header{
     text-decoration: none;
     outline-color: transparent;
     color: rgb(255, 255, 255);
+}
+
+.header-button2:hover{
+    background-color: rgb(45, 45, 45);
+}
+
+.header-button2:active{
+    background-color: rgb(90, 90, 90);
 }
 
 /* Nav CSS Code */
@@ -151,6 +173,7 @@ form{
     justify-content: space-evenly;
     align-items: center;
 }
+
  input{
     width: 650px;
     height: 70px;
@@ -182,13 +205,22 @@ form{
     width: 150px;
     height: 75px;
     border-radius: 12px;
+    border: none;
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 24px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
  }
+
+ .main-button:hover{
+    background-color: rgb(45, 45, 45);
+}
+
+.main-button:active{
+    background-color: rgb(90, 90, 90);
+}
 
  .main-link{
     font-size: 20px;
@@ -218,12 +250,14 @@ form{
 }
 
 .imgs{
-    width: 30vw;
-    height: 33vh;
+    max-width: 100%;
+    height: auto;
     padding-bottom: 5px;
 }
 
 .image-title{
+    width: 775px;
+    padding: 0px 15px;
     font-size: 32px;
     color: black;
     text-decoration: none;
